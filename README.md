@@ -44,7 +44,7 @@
 
 **缺点：** 每次增加一个产品时，都需要增加一个具体类和对象实现工厂，使得系统中类的个数成倍增加，在一定程度上增加了系统的复杂度，同时也增加了系统具体类的依赖。这并不是什么好事。
 
-代码实现点击这里:point_right: 
+代码实现点击这里:point_right: [工厂模式代码实现](https://github.com/G-Pegasus/DesignPatterns/tree/master/src/factory)
 
 ### 2. 抽象工厂模式
 
@@ -58,7 +58,7 @@
 
 **缺点：**产品族扩展非常困难，要增加一个系列的某一产品，既要在抽象的 Creator 里加代码，又要在具体的里面加代码。
 
-代码实现点击这里:point_right: 
+代码实现点击这里:point_right: [抽象工厂模式代码实现](https://github.com/G-Pegasus/DesignPatterns/tree/master/src/abstractfactory)
 
 ### 3. 代理模式
 
@@ -76,7 +76,7 @@
 
 静态代理与动态代理的区别：[代理模式详解](https://www.zhihu.com/question/20794107)
 
-代码实现点击这里:point_right: 
+代码实现点击这里:point_right: [代理模式代码实现](https://github.com/G-Pegasus/DesignPatterns/tree/master/src/proxymode)
 
 ### 4. 单例模式（面试通常需要手撕）
 
@@ -249,7 +249,7 @@ public enum Singleton {
 
 **缺点：** 1、产品必须有共同点，范围有限制。 2、如内部变化复杂，会有很多的建造类。
 
-代码实现点击这里:point_right: 
+代码实现点击这里:point_right: [建造者模式代码实现](https://github.com/G-Pegasus/DesignPatterns/tree/master/src/builder)
 
 ### 6. 适配器模式
 
@@ -265,4 +265,4 @@ public enum Singleton {
 
 **缺点：** 1、过多地使用适配器，会让系统非常零乱，不易整体进行把握。比如，明明看到调用的是 A 接口，其实内部被适配成了 B 接口的实现，一个系统如果太多出现这种情况，无异于一场灾难。因此如果不是很有必要，可以不使用适配器，而是直接对系统进行重构。 2.由于 JAVA 至多继承一个类，所以至多只能适配一个适配者类，而且目标类必须是抽象类。
 
-代码实现点击这里:point_right: 
+代码实现点击这里:point_right: [适配器模式代码实现](https://github.com/G-Pegasus/DesignPatterns/tree/master/src/adapter)
